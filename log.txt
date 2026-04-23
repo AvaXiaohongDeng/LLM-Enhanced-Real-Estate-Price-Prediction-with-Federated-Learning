@@ -1,0 +1,416 @@
+FL_Test | WARNING flwr 2026-01-04 10:36:45,522 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-04 10:36:45,525 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-04 10:36:45,560 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 10:36:45,561 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-04 10:36:45,562 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 10:37:20,116 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 10:37:20,117 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-04 10:37:20,117 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-04 10:37:20,118 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 10:37:20,118 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-04 10:38:00,601 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 10:38:02,568 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 10:38:02,571 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 10:38:02,615 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-04 10:38:02,616 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 10:38:02,616 | server.py:112 | [ROUND 2]
+FL_Test | WARNING flwr 2026-01-04 10:42:54,854 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-04 10:42:54,856 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-04 10:42:54,873 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 10:42:54,874 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-04 10:42:54,874 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 10:50:48,120 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 10:50:48,121 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-04 10:50:48,121 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-04 10:50:48,122 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 10:50:48,122 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-04 10:52:18,852 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 10:52:20,787 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 10:52:20,789 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 10:52:20,810 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-04 10:52:20,811 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 10:52:20,811 | server.py:112 | [ROUND 2]
+FL_Test | WARNING flwr 2026-01-04 10:58:50,878 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-04 10:58:50,880 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-04 10:58:50,898 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 10:58:50,899 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-04 10:58:50,899 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 10:59:27,863 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 10:59:27,864 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-04 10:59:27,864 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-04 10:59:27,865 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 10:59:27,865 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-04 11:00:04,114 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:00:06,110 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 11:00:06,112 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:00:06,136 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-04 11:00:06,136 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:00:06,137 | server.py:112 | [ROUND 2]
+FL_Test | WARNING flwr 2026-01-04 11:06:45,237 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-04 11:06:45,240 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-04 11:06:45,260 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 11:06:45,261 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-04 11:06:45,262 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:07:18,246 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:07:18,246 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-04 11:07:18,247 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-04 11:07:18,247 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:07:18,247 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-04 11:07:51,224 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:07:53,168 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 11:07:53,171 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:07:53,192 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-04 11:07:53,193 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:07:53,193 | server.py:112 | [ROUND 2]
+FL_Test | WARNING flwr 2026-01-04 11:13:26,049 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-04 11:13:26,052 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-04 11:13:26,069 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 11:13:26,070 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-04 11:13:26,070 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:14:01,072 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:14:01,073 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-04 11:14:01,073 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-04 11:14:01,074 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:14:01,074 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-04 11:14:35,157 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:14:37,086 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 11:14:37,088 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:14:37,112 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-04 11:14:37,112 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:14:37,113 | server.py:112 | [ROUND 2]
+FL_Test | WARNING flwr 2026-01-04 11:23:40,182 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-04 11:23:40,185 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-04 11:23:40,198 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 11:23:40,198 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-04 11:23:40,199 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:24:14,141 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:24:14,142 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-04 11:24:14,142 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-04 11:24:14,143 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:24:14,144 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-04 11:24:48,828 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:24:50,738 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 11:24:50,740 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:24:50,762 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-04 11:24:50,763 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:24:50,763 | server.py:112 | [ROUND 2]
+FL_Test | WARNING flwr 2026-01-04 11:41:37,633 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-04 11:41:37,636 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-04 11:41:37,658 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 11:41:37,659 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-04 11:41:37,660 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:42:15,675 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:42:15,676 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-04 11:42:15,676 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-04 11:42:15,676 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:42:15,676 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-04 11:42:53,961 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:42:55,864 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 11:42:55,866 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:42:55,886 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-04 11:42:55,887 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:42:55,887 | server.py:112 | [ROUND 2]
+FL_Test | WARNING flwr 2026-01-04 11:43:58,393 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-04 11:43:58,395 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-04 11:43:58,409 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 11:43:58,410 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-04 11:43:58,410 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:44:47,863 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:44:47,864 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-04 11:44:47,864 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-04 11:44:47,865 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:44:47,865 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-04 11:45:24,142 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:45:27,332 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 11:45:27,335 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-04 11:45:27,361 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-04 11:45:27,361 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-04 11:45:27,362 | server.py:112 | [ROUND 2]
+FL_Test | INFO flwr 2026-01-04 11:46:07,850 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-04 11:46:07,906 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 11:46:07,906 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-04 11:46:07,906 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:53:50,785 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-04 11:53:50,805 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 11:53:50,806 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-04 11:53:50,806 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:58:01,289 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 11:58:01,290 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-04 11:58:01,291 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-04 11:58:55,473 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 11:58:56,221 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 11:58:56,224 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 11:58:56,296 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 11:58:56,296 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 11:58:57,110 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 11:58:57,113 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 11:58:57,183 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 11:58:57,183 | server.py:153 | FL finished in 55.8923484000843
+FL_Test | INFO flwr 2026-01-04 11:58:57,184 | app.py:225 | app_fit: losses_distributed [(1, 1838269866.6666667), (2, 1838269866.6666667)]
+FL_Test | INFO flwr 2026-01-04 11:58:57,184 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-04 11:58:57,185 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1838269904.260668), (2, 1838269904.260668)], 'RMSE': [(1, 42220.83925), (2, 42220.83925)], 'MAE': [(1, 29029.459685), (2, 29029.459685)]}
+FL_Test | INFO flwr 2026-01-04 11:58:57,185 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-04 11:58:57,186 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | INFO flwr 2026-01-04 12:15:52,839 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-04 12:15:52,861 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 12:15:52,862 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-04 12:15:52,863 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 12:16:29,226 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 12:16:29,226 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-04 12:16:29,226 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-04 12:17:04,632 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 12:17:05,427 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 12:17:05,429 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 12:17:05,499 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 12:17:05,499 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 12:17:06,243 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 12:17:06,246 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 12:17:06,338 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 12:17:06,339 | server.py:153 | FL finished in 37.11267079995014
+FL_Test | INFO flwr 2026-01-04 12:17:06,340 | app.py:225 | app_fit: losses_distributed [(1, 1838269866.6666667), (2, 1838269866.6666667)]
+FL_Test | INFO flwr 2026-01-04 12:17:06,340 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-04 12:17:06,341 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1838269904.260668), (2, 1838269904.260668)], 'RMSE': [(1, 42220.83925), (2, 42220.83925)], 'MAE': [(1, 29029.459685), (2, 29029.459685)]}
+FL_Test | INFO flwr 2026-01-04 12:17:06,342 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-04 12:17:06,345 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | INFO flwr 2026-01-04 13:34:42,743 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-04 13:34:42,790 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 13:34:42,791 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-04 13:34:42,791 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 13:35:13,921 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 13:35:13,922 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-04 13:35:13,922 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-04 13:35:56,773 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 13:35:58,649 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 13:35:58,651 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 13:35:58,826 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 13:35:58,827 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 13:36:00,540 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 13:36:00,542 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 13:36:00,727 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 13:36:00,727 | server.py:153 | FL finished in 46.804104699999925
+FL_Test | INFO flwr 2026-01-04 13:36:00,728 | app.py:225 | app_fit: losses_distributed [(1, 1749813120.0), (2, 1749813120.0)]
+FL_Test | INFO flwr 2026-01-04 13:36:00,728 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-04 13:36:00,728 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1749813134.771639), (2, 1749813134.771639)], 'RMSE': [(1, 41245.481779), (2, 41245.481779)], 'MAE': [(1, 28379.980157), (2, 28379.980157)]}
+FL_Test | INFO flwr 2026-01-04 13:36:00,729 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-04 13:36:00,729 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | INFO flwr 2026-01-04 22:00:56,694 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-04 22:00:56,759 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-04 22:00:56,760 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-04 22:00:56,760 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 22:01:49,779 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-04 22:01:49,779 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-04 22:01:49,780 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-04 22:02:48,648 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 22:02:50,593 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 22:02:50,596 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 22:02:50,778 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 22:02:50,779 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 22:02:52,613 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-04 22:02:52,615 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-04 22:02:52,800 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-04 22:02:52,800 | server.py:153 | FL finished in 63.019834899998386
+FL_Test | INFO flwr 2026-01-04 22:02:52,801 | app.py:225 | app_fit: losses_distributed [(1, 1749813120.0), (2, 1749813120.0)]
+FL_Test | INFO flwr 2026-01-04 22:02:52,801 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-04 22:02:52,802 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1749813134.771639), (2, 1749813134.771639)], 'RMSE': [(1, 41245.481779), (2, 41245.481779)], 'MAE': [(1, 28379.980157), (2, 28379.980157)]}
+FL_Test | INFO flwr 2026-01-04 22:02:52,802 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-04 22:02:52,803 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | INFO flwr 2026-01-14 21:51:27,909 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-14 21:51:27,958 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-14 21:51:27,958 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-14 21:51:27,959 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-14 21:52:45,334 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-14 21:52:45,335 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-14 21:52:45,336 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-14 21:53:35,452 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-14 21:53:37,369 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-14 21:53:37,371 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-14 21:53:37,550 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-14 21:53:37,550 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-14 21:53:39,297 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-14 21:53:39,300 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-14 21:53:39,481 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-14 21:53:39,481 | server.py:153 | FL finished in 54.145632099942304
+FL_Test | INFO flwr 2026-01-14 21:53:39,482 | app.py:225 | app_fit: losses_distributed [(1, 1749813120.0), (2, 1749813120.0)]
+FL_Test | INFO flwr 2026-01-14 21:53:39,482 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-14 21:53:39,482 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1749813134.771639), (2, 1749813134.771639)], 'RMSE': [(1, 41245.481779), (2, 41245.481779)], 'MAE': [(1, 28379.980157), (2, 28379.980157)]}
+FL_Test | INFO flwr 2026-01-14 21:53:39,483 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-14 21:53:39,483 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | WARNING flwr 2026-01-15 12:05:53,394 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-15 12:05:53,397 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-15 12:05:53,420 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-15 12:05:53,421 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-15 12:05:53,421 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-15 12:06:26,167 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-15 12:06:26,167 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-15 12:06:26,168 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-15 12:06:26,168 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-15 12:06:26,169 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-15 12:06:53,451 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-15 12:06:55,324 | server.py:235 | aggregate_fit: received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-15 12:06:55,330 | server.py:175 | configure_evaluate: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-15 12:06:55,365 | server.py:189 | aggregate_evaluate: received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-15 12:06:55,366 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-15 12:06:55,366 | server.py:112 | [ROUND 2]
+FL_Test | INFO flwr 2026-01-15 12:09:19,084 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-15 12:09:19,155 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-15 12:09:19,155 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-15 12:09:19,156 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-15 12:09:49,103 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-15 12:09:49,104 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-15 12:09:49,104 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-15 12:10:32,969 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-15 12:10:34,858 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-15 12:10:34,860 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-15 12:10:35,046 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-15 12:10:35,046 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-15 12:10:36,800 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-15 12:10:36,802 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-15 12:10:36,981 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-15 12:10:36,981 | server.py:153 | FL finished in 47.87686009996105
+FL_Test | INFO flwr 2026-01-15 12:10:36,982 | app.py:225 | app_fit: losses_distributed [(1, 1749813120.0), (2, 1749813120.0)]
+FL_Test | INFO flwr 2026-01-15 12:10:36,982 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-15 12:10:36,982 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1749813134.771639), (2, 1749813134.771639)], 'RMSE': [(1, 41245.481779), (2, 41245.481779)], 'MAE': [(1, 28379.980157), (2, 28379.980157)]}
+FL_Test | INFO flwr 2026-01-15 12:10:36,983 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-15 12:10:36,983 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | WARNING flwr 2026-01-15 12:19:54,345 | logger.py:226 | DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+FL_Test | INFO flwr 2026-01-15 12:19:54,347 | app.py:135 | Starting Flower server, config: num_rounds=2, no round_timeout
+FL_Test | INFO flwr 2026-01-15 12:19:54,365 | app.py:148 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-15 12:19:54,366 | server.py:91 | [INIT]
+FL_Test | INFO flwr 2026-01-15 12:19:54,367 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-15 12:20:23,530 | server.py:283 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-15 12:20:23,530 | server.py:93 | Starting evaluation of initial global parameters
+FL_Test | INFO flwr 2026-01-15 12:20:23,531 | server.py:105 | Evaluation returned no results (`None`)
+FL_Test | INFO flwr 2026-01-15 12:20:23,531 | server.py:111 | 
+FL_Test | INFO flwr 2026-01-15 12:20:23,532 | server.py:112 | [ROUND 1]
+FL_Test | INFO flwr 2026-01-15 12:20:54,295 | server.py:221 | configure_fit: strategy sampled 3 clients (out of 3)
+FL_Test | INFO flwr 2026-01-15 12:20:54,372 | server.py:235 | aggregate_fit: received 0 results and 3 failures

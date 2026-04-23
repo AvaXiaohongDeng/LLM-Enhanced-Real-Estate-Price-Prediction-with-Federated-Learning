@@ -1,0 +1,144 @@
+FL_Test | INFO flwr 2026-01-03 15:25:43,257 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 15:25:43,282 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 15:25:43,283 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 15:25:43,283 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 15:31:52,594 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 15:31:52,625 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 15:31:52,626 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 15:31:52,626 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 15:38:50,176 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 15:38:50,200 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 15:38:50,201 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 15:38:50,201 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 15:43:32,195 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 15:43:32,217 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 15:43:32,218 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 15:43:32,218 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 15:43:40,185 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 15:43:40,185 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-03 15:43:40,186 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-03 15:44:56,312 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 15:44:56,894 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 15:44:56,895 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 15:44:56,953 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 15:44:56,954 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 15:44:57,386 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 15:44:57,387 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 15:44:57,435 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-03 15:44:57,436 | server.py:153 | FL finished in 77.25008479994722
+FL_Test | INFO flwr 2026-01-03 15:44:57,436 | app.py:225 | app_fit: losses_distributed [(1, 10.289384841918945), (2, 9.85809326171875)]
+FL_Test | INFO flwr 2026-01-03 15:44:57,437 | app.py:226 | app_fit: metrics_distributed_fit {'Accuracy': [(1, 0.0), (2, 0.0)], 'Precision': [(1, 0.0), (2, 0.0)], 'Recall': [(1, 0.0), (2, 0.0)], 'F1_Score': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-03 15:44:57,437 | app.py:227 | app_fit: metrics_distributed {'Accuracy': [(1, 0.71453), (2, 0.726496)], 'Precision': [(1, 0.740762), (2, 0.757328)], 'Recall': [(1, 0.71453), (2, 0.726496)], 'F1_Score': [(1, 0.703997), (2, 0.715913)]}
+FL_Test | INFO flwr 2026-01-03 15:44:57,438 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-03 15:44:57,438 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | INFO flwr 2026-01-03 19:05:16,530 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 19:05:16,576 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 19:05:16,577 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 19:05:16,577 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 19:05:25,982 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 19:05:25,982 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-03 19:05:25,983 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-03 19:05:50,161 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:05:50,877 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 19:05:50,879 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:05:50,947 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 19:05:50,948 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:05:51,693 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 19:05:51,694 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:05:51,757 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-03 19:05:51,758 | server.py:153 | FL finished in 25.774654799955897
+FL_Test | INFO flwr 2026-01-03 19:05:51,759 | app.py:225 | app_fit: losses_distributed [(1, 893817522.0), (2, 893817522.0)]
+FL_Test | INFO flwr 2026-01-03 19:05:51,760 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-03 19:05:51,760 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 893817537.264626), (2, 893817537.264626)], 'RMSE': [(1, 25005.590125), (2, 25005.590125)], 'MAE': [(1, 15323.941752), (2, 15323.941752)]}
+FL_Test | INFO flwr 2026-01-03 19:05:51,761 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-03 19:05:51,761 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | INFO flwr 2026-01-03 19:31:48,958 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 19:31:48,987 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 19:31:48,988 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 19:31:48,988 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 19:33:25,666 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 19:33:25,667 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-03 19:33:25,667 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-03 19:33:41,531 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:33:42,260 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 19:33:42,262 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:33:42,325 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 19:33:42,326 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:33:43,034 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 19:33:43,036 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:33:43,089 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-03 19:33:43,089 | server.py:153 | FL finished in 17.422055099974386
+FL_Test | INFO flwr 2026-01-03 19:33:43,090 | app.py:225 | app_fit: losses_distributed [(1, 1838269866.6666667), (2, 1838269866.6666667)]
+FL_Test | INFO flwr 2026-01-03 19:33:43,090 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-03 19:33:43,091 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1838269904.260668), (2, 1838269904.260668)], 'RMSE': [(1, 42220.83925), (2, 42220.83925)], 'MAE': [(1, 29029.459685), (2, 29029.459685)]}
+FL_Test | INFO flwr 2026-01-03 19:33:43,091 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-03 19:33:43,091 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | INFO flwr 2026-01-03 19:42:03,445 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 19:42:03,463 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 19:42:03,463 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 19:42:03,464 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 19:42:12,938 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 19:42:12,939 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-03 19:42:12,939 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-03 19:42:38,949 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:42:38,956 | server.py:236 | fit_round 1 received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-03 19:46:03,297 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 19:46:03,314 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 19:46:03,314 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 19:46:03,315 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 19:46:23,401 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 19:46:23,402 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-03 19:46:23,402 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-03 19:46:52,953 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 19:46:52,961 | server.py:236 | fit_round 1 received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-03 20:00:38,892 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 20:00:38,911 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 20:00:38,912 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 20:00:38,913 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 20:01:10,508 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 20:01:10,509 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-03 20:01:10,509 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-03 20:01:44,358 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:01:44,395 | server.py:236 | fit_round 1 received 0 results and 3 failures
+FL_Test | INFO flwr 2026-01-03 20:03:28,330 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 20:03:28,359 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 20:03:28,360 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 20:03:28,360 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 20:04:00,457 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 20:04:00,457 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-03 20:04:00,458 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-03 20:04:33,102 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:04:35,176 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 20:04:35,177 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:04:35,360 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 20:04:35,361 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:04:37,137 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 20:04:37,138 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:04:37,314 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-03 20:04:37,314 | server.py:153 | FL finished in 36.85623380006291
+FL_Test | INFO flwr 2026-01-03 20:04:37,315 | app.py:225 | app_fit: losses_distributed [(1, 1749813120.0), (2, 1749813120.0)]
+FL_Test | INFO flwr 2026-01-03 20:04:37,315 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-03 20:04:37,316 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1749813134.771639), (2, 1749813134.771639)], 'RMSE': [(1, 41245.481779), (2, 41245.481779)], 'MAE': [(1, 28379.980157), (2, 28379.980157)]}
+FL_Test | INFO flwr 2026-01-03 20:04:37,316 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-03 20:04:37,316 | app.py:229 | app_fit: metrics_centralized {}
+FL_Test | INFO flwr 2026-01-03 20:10:58,480 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+FL_Test | INFO flwr 2026-01-03 20:10:58,499 | app.py:175 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+FL_Test | INFO flwr 2026-01-03 20:10:58,500 | server.py:89 | Initializing global parameters
+FL_Test | INFO flwr 2026-01-03 20:10:58,500 | server.py:276 | Requesting initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 20:12:00,945 | server.py:280 | Received initial parameters from one random client
+FL_Test | INFO flwr 2026-01-03 20:12:00,946 | server.py:91 | Evaluating initial parameters
+FL_Test | INFO flwr 2026-01-03 20:12:00,947 | server.py:104 | FL starting
+FL_Test | DEBUG flwr 2026-01-03 20:12:35,876 | server.py:222 | fit_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:12:37,822 | server.py:236 | fit_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 20:12:37,824 | server.py:173 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:12:38,006 | server.py:187 | evaluate_round 1 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 20:12:38,006 | server.py:222 | fit_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:12:39,775 | server.py:236 | fit_round 2 received 3 results and 0 failures
+FL_Test | DEBUG flwr 2026-01-03 20:12:39,776 | server.py:173 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+FL_Test | DEBUG flwr 2026-01-03 20:12:39,962 | server.py:187 | evaluate_round 2 received 3 results and 0 failures
+FL_Test | INFO flwr 2026-01-03 20:12:39,963 | server.py:153 | FL finished in 39.01635210006498
+FL_Test | INFO flwr 2026-01-03 20:12:39,963 | app.py:225 | app_fit: losses_distributed [(1, 1749813120.0), (2, 1749813120.0)]
+FL_Test | INFO flwr 2026-01-03 20:12:39,963 | app.py:226 | app_fit: metrics_distributed_fit {'MSE': [(1, 0.0), (2, 0.0)], 'RMSE': [(1, 0.0), (2, 0.0)], 'MAE': [(1, 0.0), (2, 0.0)]}
+FL_Test | INFO flwr 2026-01-03 20:12:39,964 | app.py:227 | app_fit: metrics_distributed {'MSE': [(1, 1749813134.771639), (2, 1749813134.771639)], 'RMSE': [(1, 41245.481779), (2, 41245.481779)], 'MAE': [(1, 28379.980157), (2, 28379.980157)]}
+FL_Test | INFO flwr 2026-01-03 20:12:39,964 | app.py:228 | app_fit: losses_centralized []
+FL_Test | INFO flwr 2026-01-03 20:12:39,965 | app.py:229 | app_fit: metrics_centralized {}
