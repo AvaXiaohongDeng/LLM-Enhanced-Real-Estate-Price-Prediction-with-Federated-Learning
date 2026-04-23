@@ -11,20 +11,6 @@ This project presents a hybrid machine learning framework for real estate price 
 - Federated learning is integrated to support privacy-preserving model training across distributed datasets.
 - Agent-based workflows are designed for both sellers and buyers, including price suggestions, listing optimization, and preference-based recommendations.
 
-## Repository Structure
-
-.
-├── data/                  # Structured datasets and supporting files
-├── export/                # Exported reports and notebook outputs
-├── fl_flower_rf/          # Federated learning implementation for Random Forest
-├── fl_flower_lstm/        # Federated learning implementation for LSTM
-├── llm/                   # LLM-based feature extraction and agentic workflows
-├── output/                # Figures, processed outputs, and analysis results
-├── 1_data_prepare_ames_macro.ipynb
-├── 2_macroeconomic_influence_on_hpi.ipynb
-├── 3_rq1a_hedonic_model_features_analysis.ipynb
-└── 4_rq1b_ml_models_rf_lstm.ipynb
-```
 
 ## Main Components
 
